@@ -6,6 +6,8 @@ sudo apt install net-tools ifupdown sendip
 sudo apt install ethtool
 # для редактирования настроек сетевых интерфейсов из терминала с пом. nmtui-edit
 sudo apt install network-manager
+# заголовочные файлы ядра (в manjaro заменить на 'sudo pacman -S linux515-headers')
+sudo apt install kbuild
 # среда разработки
 sudo apt install emacs-nox build-essential libtool libtalloc-dev shtool autoconf automake pkg-config make gcc
 # сборка пакета
